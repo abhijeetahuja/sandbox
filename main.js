@@ -4,7 +4,7 @@
  */
 
 // A basic route returning a canned response
-Sandbox.define('/hello', 'get', function(req, res) {
+Sandbox.define('/hello1', 'GET', function(req, res) {
     // send 'Hello world' response
     res.send('Hello world');
 });
